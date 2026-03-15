@@ -18,7 +18,6 @@
   </properties>
 
   <dependencies>
-    <!-- JUnit 5 for testing -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
@@ -29,7 +28,6 @@
 
   <build>
     <plugins>
-      <!-- Maven Surefire for running JUnit 5 tests -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -37,4 +35,5 @@
       </plugin>
     </plugins>
   </build>
+
 </project>
