@@ -36,7 +36,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>com.example.grocery.MainApplication</mainClass>
+              <mainClass>com.grocery.MainApplication</mainClass>
             </manifest>
           </archive>
         </configuration>
